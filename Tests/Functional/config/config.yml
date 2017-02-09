@@ -1,0 +1,6 @@
+framework:
+  secret: test
+
+ronte-zmq:
+  type: \ZMQ::SOCKET_XPUB
+  url: "tcp://localhost:12345"
