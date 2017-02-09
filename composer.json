@@ -1,5 +1,5 @@
 {
-    "name": "ronte-ltd/zmq",
+    "name": "ronte-ltd/zmq-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "description": "Wrapper arround zmq client",
