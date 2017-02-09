@@ -2,9 +2,8 @@ Zmq client bundle
 =================
 
 [![Build Status](https://travis-ci.org/ronte-ltd/zmq.svg?branch=master)](https://travis-ci.org/ronte-ltd/zmq)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ronte-ltd/SettingsBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ronte-ltd/SettingsBundle/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/ronte-ltd/SettingsBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/ronte-ltd/SettingsBundle/?branch=master)
-
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ronte-ltd/zmq/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ronte-ltd/zmq/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/ronte-ltd/zmq/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/ronte-ltd/zmq/?branch=master)
 # Install
 
 ``` bash
