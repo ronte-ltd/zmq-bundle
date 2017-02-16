@@ -25,6 +25,10 @@ class Configuration implements ConfigurationInterface
                     ->isRequired()
                     ->cannotBeEmpty()
                 ->end()
+                ->integerNode('sleep')
+                  ->min(0)
+                  ->defaultValue(100000)
+                ->end()
             ->end();
 
         return $treeBuilder;

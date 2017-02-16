@@ -44,7 +44,9 @@ class RonteZmqExtension extends Extension
             $type = constant($type);
         }
         $container->getDefinition('ronte-zmq.client')
-            ->setArguments([$type, $config['url']]);
+            ->addArgument($type)
+            ->addArgument($config['url'])
+            ->addArgument($config['sleep']);
     }
 
     /**

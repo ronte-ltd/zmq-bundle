@@ -6,7 +6,8 @@
                                http://symfony.com/schema/dic/services/services-1.0.xsd"
 >
   <services>
-    <service id="ronte-zmq.client" class="RonteLtd\Zmq\Client">
+    <service id="ronte-zmq.client" class="RonteLtd\Zmq\ZmqClient">
+      <argument type="service" id="logger" />
     </service>
   </services>
 </container>
