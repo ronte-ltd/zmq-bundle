@@ -18,7 +18,7 @@ class ZmqClient implements Client
         string $url,
         int $sleep
     ) {
-        $this->logger = logger;
+        $this->logger = $logger;
         $this->type = $type;
         $this->url = $url;
         $this->sleep = $sleep;
