@@ -35,6 +35,7 @@ class ZmqClient implements Client
                     ->getSocket($this->type, 'my sock');
                 $this->socket->connect($this->url);
                 $this->logger->debug('Zmq connected');
+                usleep($this->sleep);
             }
 
             $this->socket->send($message);
